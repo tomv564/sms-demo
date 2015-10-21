@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using SwedishPersonLookup;
 
@@ -17,10 +18,24 @@ namespace SMSServer
             "{0}: Santa will deliver your {1}"
         };
 
+        private static readonly Regex SwedishNumberRegex = new Regex(@"^\+46[\d\s]*$", RegexOptions.Compiled);
+
         public static async Task<string> Reply(ShortMessage sms)
         {
-            var lookup = new PersonLookupClient();
-            var person = await lookup.ByPhoneNumber(sms.From);
+
+            if (!SwedishNumberRegex.IsMatch(sms.From))
+                return "Sorry, Santa only works for Swedish numbers (+46)";
+
+            Person person = null;
+            try {
+                var lookup = new PersonLookupClient();
+                person = await lookup.ByPhoneNumber(sms.From);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return "Sorry, Santa is having some technical difficulties!";
+            }
 
             // person not known
             if (person == null)
@@ -37,5 +52,7 @@ namespace SMSServer
             return message ?? "You ask for too much!";
 
         }
+
+
     }
 }
