@@ -1,0 +1,6 @@
+From field not clear (can it be text?)
+
+Optional field for .. delivery should be at the end?
+
+Delivery on a wrong url (returned 405), cannot clear url and correction does not seem to be picked up?
+

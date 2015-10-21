@@ -1,0 +1,225 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="SV" lang="SV">
+        <head>
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <!-- Page was generated Wed Oct 21 13:54:48 CEST 2015 by front11 -->
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+			<meta name="description" content="118100 - Nummerupplysning via Telefon, Internet och SMS.
+			SÃ¶k personer, fÃ¶retag, telefonnummer, adresser eller kartor." />
+			<meta name="verify-v1" content="Kr+TW21OmDny7NFs6x2oPb4pUG0gDLbWInttcdOfGiU=" />
+			
+			<title>0702759810 | 118100.se</title>
+			
+			<link href="/img/118100_small.ico" rel="shortcut icon" /><link href="/styles/jquery.autocomplete.css" rel="stylesheet" type="text/css" media="all" /><link href="/styles/screen.min.css" rel="stylesheet" type="text/css" media="all" /><link href="/styles/print.min.css" rel="stylesheet" type="text/css" media="print" /><link href="/styles/colorbox/colorbox.min.css" rel="stylesheet" type="text/css" media="all" /><script type="text/javascript" src="http://eas4.emediate.eu/EAS_tag.1.0.js"></script>
+			<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+			<script type="text/javascript">google.load('ads.search', '1');</script>
+						
+			<!-- QRCode related scripts -->
+			<script type="text/javascript" src="/js/qrcode.js"></script>
+			<script>
+				function draw_qrcode(text) {
+					var qr = new QRCode(8, QRErrorCorrectLevel.L);
+					qr.addData(text);
+					qr.make();
+					document.write("<table style='border-width: 0px; border-style: none; border-color: #0000ff; border-collapse: collapse; margin-left: auto; margin-right: auto;'>");
+					
+					for (var r = 0; r < qr.getModuleCount(); r++) {
+					    document.write("<tr style='border-width: 0px;'>");
+					    for (var c = 0; c < qr.getModuleCount(); c++) {
+					        if (qr.isDark(r, c) ) {
+					            document.write("<td style='border-width: 0px; border-style: none; border-color: #0000ff; border-collapse: collapse; padding: 0; margin: 0; width: 2px; height: 2px; background-color: #000000;'/>");
+					        } else {
+					            document.write("<td style='border-width: 0px; border-style: none; border-color: #0000ff; border-collapse: collapse; padding: 0; margin: 0; width: 2px; height: 2px; background-color: #ffffff;'/>");
+					        }
+					    }
+					    document.write("</tr>");
+					}
+					document.write("</table>");
+				}
+			</script>
+			
+			</head>
+        <body onload="init()">
+			<div class="skiplinks"><a tabindex="1" href="#searchContent"  title="Direkt till sidans huvudinnehÃ¥ll [snabbkommando alt s]" accesskey="s">
+						<img src="/img/blank.gif" width="1" height="1" alt="" />
+					</a>
+					<a tabindex="2" href="http://www.118100.com/om/" title="TillgÃ¤nglighetsinformation och anpassning [snabbkommando alt 0]" accesskey="0">
+						<img src="/img/blank.gif" width="1" height="1" alt="" />
+					</a>
+					<a tabindex="3" href="/" title="Till startsidan [snabbkommando alt 1]" accesskey="1">
+						<img src="/img/blank.gif" width="1" height="1" alt="" />
+					</a>
+					<a tabindex="4" href="/webbkarta" title="Till webbkartan [snabbkommando alt 3]" accesskey="3">
+						<img src="/img/blank.gif" width="1" height="1" alt="" />
+					</a>
+					<a tabindex="6" href="/branscher" title="Till branscher [snabbkommando alt 5]" accesskey="5">
+						<img src="/img/blank.gif" width="1" height="1" alt="" />
+					</a>
+					<a tabindex="7" href="/kontakt" title="Kontakta oss [snabbkommando alt 7]" accesskey="7">
+						<img src="/img/blank.gif" width="1" height="1" alt="" />
+					</a>
+				</div>
+			<div class="body">
+				<div class="bannerWrapper-top">
+					<div class="banner"> 
+						<div id="topBannerAd"> 
+							<div class="declaration">
+
+<script type="text/javascript" src="http://aka-cdn-ns.adtech.de/dt/common/DAC.js"></script>
+<div id="5172934"><noscript><a href="http://adserver.adtech.de/adlink|3.0|1568.1|5172934|0|2649|ADTECH;loc=300;alias=" target="_blank"><img src="http://adserver.adtech.de/adserv|3.0|1568.1|5172934|0|2649|ADTECH;loc=300;alias=" border="0" width="980" height="240"></a></noscript></div>
+<script>
+ADTECH.config.page = { protocol: 'http', server: 'adserver.adtech.de', network: '1568.1', siteid: '701424', params: { loc: '100' }};
+ADTECH.config.placements[5172934] = { sizeid: '2649', params: { alias: '', target: '_blank' }};
+ADTECH.enqueueAd(5172934);
+ADTECH.executeQueue();
+</script>
+
+							</div> 
+						</div> 
+					</div> 
+				</div> 
+				<div class="screenContent" id="content">
+					<div class="pageMenu-wrapper whiteBackgr">
+						<div class="inner">
+							<ul>
+								<li class="selected">
+									<a href="/">S&ouml;k</a></li>
+								<li>
+									</li>
+								<li>
+									</li>
+							</ul>
+						</div>
+					</div>
+					<div class="page_content person_result">
+			<div class="logo">
+<a href="/"><img src="/img/logo.png" alt="logga" /></a>
+</div><div class="searchBoxWrapper">
+	<fieldset>
+		<h2 class="searchHeading">S&ouml;k nummer och adresser till personer och f&ouml;retag</h2>
+		<form id="form1" action="/s" method="get" class="formNormal searchBox">
+			<div class="searchField"><input type="text" name="q" id="q" class="textfield" value="0702759810" /><input type="submit" name="Submit" value=" " class="button" /></div>
+			<div class="searchExamples">
+				<p>Skriv till exempel <i>"Konferens Göteborg"</i> eller <i>"Anders Johansson, Lund"</i></p>
+				</div></form>
+	</fieldset>
+    </div><div class="searchBoxLower">
+    </div><div class="threeColArea">
+				<div class="menuCol-left">
+					<div class="menu boxBorder">
+						<h3 class="structural">Tillgängliga filter</h3><dl>
+<dt class="initPersonLocationFacets">Län</dt>
+			<dd class="initPersonLocationFacets"><a href="/sok-person/0702759810/lan/uppsala" rel=""><span class="filterSubject"><span>Uppsala</span></span></a></dd>
+			</dl></div>
+					<div class="google-ad-content">
+	<script type="text/javascript"><!--
+		google_ad_client = "ca-pub-3658342588863941";
+		google_ad_slot = "0406278560";
+		google_ad_width = 160;
+		google_ad_height = 90;
+	//-->
+	</script>
+	<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+</div>
+				<div class="mainCol">
+					<div class="hitCol boxBorder">
+						<div class="bransch-list">
+							<div class="h2-wrapper">
+								<h2><span>Personer</span></h2>
+							</div>
+							<div class="clearBoth"></div>
+							<div class="wide">
+								<ol class="persons hitList">
+		<li class="hit odd"><ul>
+				<li class="numberBlock">
+					<span>1</span></li>
+				<li class="nameBlock">
+					<h4>
+						<a href="/person/113749787/johanna-ostlund">
+							Johanna Östlund</a>
+						</h4>
+					<p>Mobil: 070-275&nbsp;98&nbsp;10</p>
+					</li>
+				<li class="addressBlock">
+					<p>Rackarbergsgatan&nbsp; 62 <span>752 32&nbsp;Uppsala</span>
+					</p>
+					<p class="moreInfo">
+						<a href="/person/113749787/johanna-ostlund">Mer information</a>
+						<!-- Disabled as of 2013-013-27 <a style="margin-left:10px;" href="http://www.interflora.se/foretag/118100/?Firstname=Johanna&Lastname=%D6stlund&Address=Rackarbergsgatan+62&Zip=75232&Town=UPPSALA&Mobile=0702759810" target="_blank">Skicka blomma</a>	
+ -->
+					</p>
+				</li>
+				</ul><div class="clearBoth"></div>
+			</li>
+		</ol>
+</div>
+							<div class="clearBoth"></div>
+							<div class="clearBoth"></div>
+						</div>
+					</div>
+				</div>
+				<div class="adCol">
+	<h3>annonser</h3>
+
+	<div id="leeads-ad-container">
+			<script type="text/javascript" src="http://eas4.emediate.eu/eas?cu=10010;cre=mu;js=y;target=_blank"></script>
+			<script type="text/javascript" src="http://eas4.emediate.eu/eas?cu=10011;cre=mu;js=y;target=_blank"></script>
+		</div>
+	<div class="google-ad-content">
+	<script type="text/javascript" src="http://eas4.emediate.eu/eas?cu=25188;cre=mu;js=y;pageviewid=;target=_blank"></script>
+		<noscript>
+		<a target="_blank" href="http://eas4.emediate.eu/eas?cu=25188;ty=ct;pageviewid="><img src="http://eas4.emediate.eu/eas?cu=25188;cre=img;pageviewid=" alt="EmediateAd" width="160" height="600" style="border:0px"/></a>
+		</noscript>
+	</div>
+</div><div class="clearBoth"></div>
+			</div>
+			<div class="google-ad-content">
+	<div style="float:left;">
+			<script type="text/javascript" src="http://eas4.emediate.eu/eas?cu=25187;cre=mu;js=y;pageviewid=;target=_blank"></script>
+			<noscript>
+			<a target="_blank" href="http://eas4.emediate.eu/eas?cu=25187;ty=ct;pageviewid="><img src="http://eas4.emediate.eu/eas?cu=25187;cre=img;pageviewid=" alt="EmediateAd" width="728" height="90" style="border:0px"/></a>
+			</noscript>
+		</div>
+	</div>
+</div>
+	<div class="clearBoth"></div>
+				</div><div class="clearFooter"></div>
+			</div><div style="display:none;">
+					<script type="text/javascript" src="/js/jquery-1.3.1.min.js"></script>
+					<script type="text/javascript" src="/js/main.js"></script>
+					
+					<script type="text/javascript">
+						setContextPath("");
+					</script>
+					<script type="text/javascript" src="/js/jquery.autocomplete.js"></script>
+					<script type="text/javascript" src="/js/jquery.lightbox.min.js"></script>
+					<script type="text/javascript" src="/js/jquery.colorbox-min.js"></script>
+					<script type="text/javascript">
+						var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+						document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+					</script>
+					<script type="text/javascript">
+						try {
+							var pageTracker = _gat._getTracker("UA-8187327-2");
+							pageTracker._trackPageview();
+						} catch(err) {}
+					</script>
+					</div>
+				<div class="stripeBottom">
+					<div class="footer">
+						<div class="identity">
+							<p>&copy; 118100 - Nummerupplysning via Telefon, Internet och SMS.</p>
+								</div>
+						<div class="footerMenu-wrapper whiteBackgr">
+							<div class="inner">
+								<ul>
+									<li>
+										<a href="http://www.118100.com/om/">Om&nbsp;118100</a></li>
+<li>
+ <a href="http://www.118100.com/allmanna-villkor/">Villkor</a>
+</li>
+								</ul>
+							</div></div></div></div></body>
+    </html>
