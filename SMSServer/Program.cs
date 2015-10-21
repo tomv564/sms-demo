@@ -20,7 +20,7 @@ namespace SMSServer
         {
             get
             {
-                return HOST == null ? Env.Staging : Env.Deployment;
+                return PORT == null ? Env.Staging : Env.Deployment;
             }
         }
 
@@ -33,6 +33,9 @@ namespace SMSServer
                     case Env.Staging:
                         return new Uri("http://localhost:" + StagingPort);
                     case Env.Deployment:
+                        if (string.IsNullOrEmpty(HOST))
+                            throw new Exception("HOST variable not set");
+
                         return new Uri("http://" + HOST + ":" + PORT);
                     default:
                         throw new Exception("Unexpected environment");
@@ -61,8 +64,9 @@ namespace SMSServer
             //    Console.WriteLine("sms/echo SMS handler registered for {0}", number);
 
             //}).Wait();
-           
-            Console.ReadKey();
+
+            for (var line = Console.ReadLine (); line != "quit";);
+
             Host.Stop();
         }
     }
