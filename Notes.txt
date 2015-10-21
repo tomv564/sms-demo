@@ -4,3 +4,14 @@ Optional field for .. delivery should be at the end?
 
 Delivery on a wrong url (returned 405), cannot clear url and correction does not seem to be picked up?
 
+Windows development - as usual.
+
+
+Getting an xbuild:
+
+install nuget (including dll) to /usr/local/bin, handy sh script gist.
+no solution-wide packages.config, so run on each project that needs it. (see restore.sh)
+remove non-buildable projects (eg. Visual studio mstest projects) from SLN
+
+then run: mono SMSServer/bin/Debug/SMSServer.exe
+
