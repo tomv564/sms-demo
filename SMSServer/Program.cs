@@ -52,6 +52,7 @@ namespace SMSServer
         static void Main(string[] args)
         {
 
+            Console.WriteLine("Configuring for address {0}", CurrentAddress);
             var config = new HostConfiguration() {UrlReservations = new UrlReservations {CreateAutomatically = true}};
             Host = new NancyHost(config, CurrentAddress);
             Host.Start();
