@@ -10,8 +10,12 @@ namespace SMSServer
     public static class Santa
     {
 
+
+
+
         private static readonly string[] Formats =
         {
+            "Dear {0} of {2}:\nIf you've been good since you last sat on my knee, you will find a {1} under your tree.\nBest wishes,\nSanta",
             "Dear {0}: If you've been good this year, Santa will deliver your {1} to {2} on Christmas Eve!",
             "Dear {0}, Santa will deliver your {1} on Christmas Eve!",
             "Dear {0}, Santa will deliver your {1} to {2}",
@@ -19,6 +23,7 @@ namespace SMSServer
         };
 
         private static readonly Regex SwedishNumberRegex = new Regex(@"^\+46[\d\s]*$", RegexOptions.Compiled);
+        private static readonly Regex NounPrefixRegex = new Regex(@"^\s*(?:a|an)\s+", RegexOptions.IgnoreCase);
 
         public static async Task<string> Reply(ShortMessage sms)
         {
@@ -34,20 +39,22 @@ namespace SMSServer
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
-                return "Sorry, Santa is having some technical difficulties!";
+                return "Sorry, Santa is having some technical difficulties. The elves will check the error logs shortly!";
             }
 
             // person not known
             if (person == null)
                 return "Sorry, you are not in Santa's book. Try from another number?";
 
+            // clean the input a little
             var firstName = person.FullName.Split(' ')[0];
-            var where = string.IsNullOrWhiteSpace(person.City) ? "you" : person.City;
-            
+            var where = string.IsNullOrWhiteSpace(person.City) ? "your town" : person.City;
+            var gift = NounPrefixRegex.Replace(sms.Message, "");
+
             // find the first (largest) message that fits an arbitrary limit of a hundred chars.
             var message =
-                Formats.Select(format => String.Format(format, firstName, sms.Message, where))
-                    .FirstOrDefault(generated => generated.Length < 100);
+                Formats.Select(format => String.Format(format, firstName, gift, where))
+                    .FirstOrDefault(generated => generated.Length < 160);
 
             return message ?? "You ask for too much!";
 
