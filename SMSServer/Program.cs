@@ -33,10 +33,8 @@ namespace SMSServer
                     case Env.Staging:
                         return new Uri("http://localhost:" + StagingPort);
                     case Env.Deployment:
-                        if (string.IsNullOrEmpty(HOST))
-                            throw new Exception("HOST variable not set");
-
-                        return new Uri("http://" + HOST + ":" + PORT);
+                        var host = string.IsNullOrEmpty(HOST) ? "localhost" : HOST;
+                        return new Uri("http://" + host + ":" + PORT)
                     default:
                         throw new Exception("Unexpected environment");
                 }
@@ -58,6 +56,8 @@ namespace SMSServer
             Host.Start();
             Console.WriteLine("Nancy is started and listening on {0}...", CurrentAddress);
 
+            // Example to automatically register a phone number.
+            // In this case it's much handier to configure the number manually in the dashboard.
             //Task.Run(async () =>
             //{
 
